@@ -39,6 +39,17 @@ body {
     font-size: 20px;
 }
 
+.logo {
+    font-size: 30px;
+    color: black;
+    text-decoration: none;
+}
+.logostyle {
+    font-size: 30px;
+    color: black;
+    text-decoration: none;
+}
+
 .menu-icon, .search-icon, .call-us {
     cursor: pointer;
     display: flex;
@@ -309,7 +320,6 @@ body {
 }
 
 
-/* Louis Vuitton Services Section Styles */
 .services-section {
     text-align: center;
     margin: 50px 20px;
@@ -424,11 +434,11 @@ body {
     font-weight: bold;
     margin-bottom: 50px;
     margin-top: 150px;
-    text-align: center; /* Vycentrování textu na střed */
+    text-align: center;
 }
 
 .bottom-footer {
-    padding: 40px 80px; /* Zvýšení paddingu */
+    padding: 40px 80px;
     border-top: 1px solid #e6e6e6;
     display: flex;
     justify-content: space-between;
@@ -500,7 +510,7 @@ body {
 }
 
 .dropdown-menu.show {
-    display: block;
+    display: block !important;
 }
 
 .menu-icon {
@@ -528,7 +538,6 @@ body {
     text-decoration: underline;
 }
 
-/* Submenu styling */
 .submenu .dropdown-submenu {
     display: none;
     position: absolute;
@@ -542,15 +551,15 @@ body {
     height: 100vh;
 }
 
-.submenu:hover > .dropdown-submenu {
+.submenu .dropdown-submenu.open {
     display: block;
 }
+
 
 .show {
     display: block;
 }
 
-/* Submenu grid styling */
 .submenu-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -773,11 +782,20 @@ body {
     }
 }
 
-@media (max-width: 1024px) and (min-width: 768px) {
-/*    .navbar {
+@media (max-width: 1200px) and (min-width: 768px) {
+    .dropdown-menu.show {
+        width: 200px;
+        height: 100vh;
+    }
+    .dropdown-submenu.open {
+        left: 200px;
+        width: 300px;
+    }
+
+    .navbar {
         padding: 20px 30px;
         font-size: 18px;
-    }*/
+    }
 
     .background-section, .background-section2 {
         height: 80vh;
@@ -813,7 +831,15 @@ body {
     }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 760px) {
+    .dropdown-menu.show {
+        width: 100vw;
+        height: 100vh;
+    }
+    .dropdown-submenu.open {
+        left: 200px;
+        width: 300px;
+    }
     .navbar {
         flex-direction: column;
         padding: 30px 20px;

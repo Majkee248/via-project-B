@@ -1,0 +1,121 @@
+<nav class="navbar">
+    <div class="navbar-left">
+        <div class="menu-icon" id="menuButton">
+            <img src="img/menu.svg" alt="Menu">
+            <div>Menu</div>
+        </div>
+            <ul class="dropdown-menu">
+                <li><a href="index.html">Home</a></li>
+                <li class="submenu root-submenu">
+                    <a href="#">New</a>
+                    <ul class="dropdown-submenu first-level">
+                        <li class="submenu first-level-submenu">
+                            <a href="#">For Women</a>
+                            <ul class="dropdown-submenu second-level" id="for-women-submenu">
+                                <li>
+                                    <div class="submenu-grid">
+                                        <div class="submenu-item large">
+                                            <img src="img/ForWomen/img.png" alt="Large Photo">
+                                            <p>Neverfull Inside Out</p>
+                                        </div>
+                                        <div class="submenu-item">
+                                            <img src="img/ForWomen/img_1.png" alt="Photo 1">
+                                            <p>The Latest</p>
+                                        </div>
+                                        <div class="submenu-item">
+                                            <img src="img/ForWomen/img_2.png" alt="Photo 2">
+                                            <p>Le Damier de Louis Vuitton</p>
+                                        </div>
+                                        <div class="submenu-item">
+                                            <img src="img/ForWomen/img_3.png" alt="Photo 3">
+                                            <p>LV Ski</p>
+                                        </div>
+                                        <div class="submenu-item">
+                                            <img src="img/ForWomen/img_4.png" alt="Photo 4">
+                                            <p>Vivienne Holidays</p>
+                                        </div>
+                                        <div class="submenu-item">
+                                            <img src="img/ForWomen/img_5.png" alt="Photo 4">
+                                            <p>Flight Mode</p>
+                                        </div>
+                                        <div class="submenu-item">
+                                            <img src="img/ForWomen/img_6.png" alt="Photo 4">
+                                            <p>LV Art Silk Squares</p>
+                                        </div>
+                                        <div class="submenu-item">
+                                            <img src="img/ForWomen/img_7.png" alt="Photo 4">
+                                            <p>The Fall Edit</p>
+                                        </div>
+                                        <div class="submenu-item">
+                                            <img src="img/ForWomen/img_8.png" alt="Photo 4">
+                                            <p>Fall-Winter 2024 Show</p>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="submenu">
+                            <a href="#">For Men</a>
+                            <ul class="dropdown-submenu second-level" id="for-men-submenu">
+                                <li>
+                                    <div class="submenu-grid">
+                                        <div class="submenu-item large">
+                                            <img src="img/ForMen/img.png" alt="Large Photo">
+                                            <p>Spring-Summer 2025 Pre-Collection Exclusive Preorder</p>
+                                        </div>
+                                        <div class="submenu-item">
+                                            <img src="img/ForMen/img_1.png" alt="Photo 1">
+                                            <p>The Latest</p>
+                                        </div>
+                                        <div class="submenu-item">
+                                            <img src="img/ForMen/img_2.png" alt="Photo 2">
+                                            <p>LV Ski</p>
+                                        </div>
+                                        <div class="submenu-item">
+                                            <img src="img/ForMen/img_3.png" alt="Photo 3">
+                                            <p>Le Damier de Louis Vuitton</p>
+                                        </div>
+                                        <div class="submenu-item">
+                                            <img src="img/ForMen/img_4.png" alt="Photo 4">
+                                            <p>LV Fall</p>
+                                        </div>
+                                        <div class="submenu-item">
+                                            <img src="img/ForMen/img_5.png" alt="Photo 4">
+                                            <p>New Formal</p>
+                                        </div>
+                                        <div class="submenu-item">
+                                            <img src="img/ForMen/img_6.png" alt="Photo 4">
+                                            <p>Fall-Winter 2024 Show</p>
+                                        </div>
+                                    </div>
+                                </li>
+                            </ul>
+                        </li>
+                        <li><a href="#">For Pets</a></li>
+                        <li><a href="#">Louis Vuitton VIA Varsity Blouson</a></li>
+                        <li><a href="#">37th America's Cup Barcelona</a></li>
+                    </ul>
+                </li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="gifts.html">All Gifts</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+
+        <div class="search-icon">
+            <img src="img/minimal-48-512.webp" alt="Search">
+            <div>Search</div>
+        </div>
+    </div>
+    <div class="navbar-center">
+        <h1 class="logo">LOUIS VUITTON</h1>
+    </div>
+    <div class="navbar-right">
+        <div class="call-us">Call Us</div>
+        <div class="menu-icon">
+            <img class="heart-icon" src="img/heart-empty.svg" alt="Heart">
+        </div>
+        <div class="menu-icon">
+            <img class="heart-icon" src="img/person-outline.svg" alt="Person">
+        </div>
+    </div>
+</nav>

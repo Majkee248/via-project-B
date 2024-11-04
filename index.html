@@ -13,14 +13,15 @@
         <div class="menu-icon" id="menuButton">
             <img src="img/menu.svg" alt="Menu">
             <div>Menu</div>
+        </div>
             <ul class="dropdown-menu">
                 <li><a href="index.html">Home</a></li>
-                <li class="submenu">
+                <li class="submenu root-submenu">
                     <a href="#">New</a>
-                    <ul class="dropdown-submenu">
-                        <li class="submenu">
+                    <ul class="dropdown-submenu first-level">
+                        <li class="submenu first-level-submenu">
                             <a href="#">For Women</a>
-                            <ul class="dropdown-submenu" id="for-women-submenu">
+                            <ul class="dropdown-submenu second-level" id="for-women-submenu">
                                 <li>
                                     <div class="submenu-grid">
                                         <div class="submenu-item large">
@@ -63,9 +64,9 @@
                                 </li>
                             </ul>
                         </li>
-                        <li class="submenu">
+                        <li class="submenu first-level-submenu">
                             <a href="#">For Men</a>
-                            <ul class="dropdown-submenu" id="for-men-submenu">
+                            <ul class="dropdown-submenu second-level" id="for-men-submenu">
                                 <li>
                                     <div class="submenu-grid">
                                         <div class="submenu-item large">
@@ -109,14 +110,18 @@
                 <li><a href="gifts.html">All Gifts</a></li>
                 <li><a href="contact.html">Contact</a></li>
             </ul>
-        </div>
+
         <div class="search-icon">
             <img src="img/minimal-48-512.webp" alt="Search">
             <div>Search</div>
         </div>
     </div>
     <div class="navbar-center">
-        <h1 class="logo">LOUIS VUITTON</h1>
+        <div class="navbar-center">
+            <h1 class="logo">
+                <a class="logostyle" href="index.html">LOUIS VUITTON</a>
+            </h1>
+        </div>
     </div>
     <div class="navbar-right">
         <div class="call-us">Call Us</div>
@@ -303,7 +308,7 @@
     </div>
 </section>
 
-<!-- Photo Gallery Section -->
+ Photo Gallery Section
 
 <h2 class="heading">Galery</h2>
 
