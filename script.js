@@ -71,6 +71,8 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 });
 
+
+
 document.addEventListener('DOMContentLoaded', function() {
     const forWomenLink = document.querySelector('.service-link[href="#"]'); // Adjust the selector as needed
     const forWomenSubmenu = document.getElementById('for-women-submenu');

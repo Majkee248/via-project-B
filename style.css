@@ -758,10 +758,6 @@ body {
     transform: translateY(-2px);
 }
 
-
-/* Responsive Styles */
-
-/* Large screens (Desktops and larger tablets) */
 @media (min-width: 1024px) {
     .navbar {
         padding: 20px 40px;
@@ -777,12 +773,11 @@ body {
     }
 }
 
-/* Medium screens (Tablets) */
 @media (max-width: 1024px) and (min-width: 768px) {
-    .navbar {
+/*    .navbar {
         padding: 20px 30px;
         font-size: 18px;
-    }
+    }*/
 
     .background-section, .background-section2 {
         height: 80vh;
