@@ -64,49 +64,27 @@ document.addEventListener('DOMContentLoaded', function () {
         console.log("asdasdasdas");
         dropdownMenu.classList.toggle('show');
     });
-});
 
+    const firstLevels = document.querySelectorAll(".first-level .submenu");
 
+    const rootSubmenu = document.querySelector('.root-submenu');
 
-document.addEventListener('DOMContentLoaded', function() {
-    const forWomenLink = document.querySelector('.service-link[href="#"]');
-    const forWomenSubmenu = document.getElementById('for-women-submenu');
-    const firstLevel = document.querySelector(".first-level .submenu");
-
-    const subMenu = document.querySelector('.root-submenu');
-    subMenu.addEventListener('click', function() {
+    rootSubmenu.addEventListener('click', function() {
         console.log("submenu open first");
-        subMenu.querySelector('.first-level').classList.add('open');
+        rootSubmenu.querySelector('.first-level').classList.add('open');
     });
 
-    firstLevel.addEventListener('click', function() {
-        console.log("submenu open second");
-        subMenu.querySelector('.first-level').classList.add('open');
-        firstLevel.querySelector('.second-level').classList.toggle('open');
-    });
-
-    // For Men
-    const forMenLink = document.querySelector('.service-link[href="#men"]');
-    const forMenSubmenu = document.getElementById('for-men-submenu');
-    const menFirstLevel = document.querySelector(".men-first-level .submenu");
-
-    const menSubMenu = document.querySelector('.men-root-submenu');
-    menSubMenu.addEventListener('click', function() {
-        console.log("men submenu open first");
-        menSubMenu.querySelector('.men-first-level').classList.add('open');
-    });
-
-    menFirstLevel.addEventListener('click', function() {
-        console.log("men submenu open second");
-        menSubMenu.querySelector('.men-first-level').classList.add('open');
-        menFirstLevel.querySelector('.men-second-level').classList.toggle('open');
+    firstLevels.forEach(function(firstLevel) {
+        firstLevel.addEventListener('click', function() {
+            console.log("submenu open second");
+            rootSubmenu.querySelector('.first-level').classList.add('open');
+            firstLevel.querySelector('.second-level').classList.toggle('open');
+        });
     });
 });
 
-
-
-
-
-
+/*
+*
+* */
 
 
